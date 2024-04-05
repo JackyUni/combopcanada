@@ -1,0 +1,12 @@
+set power_plants := windpark_ek windpark_bh bio_ek water_stA bio_kw wind_brühl other;
+set cities := Bonn Troisdorf Siegburg Bornheim Niederkassel;
+
+param transportation_cost: windpark_ek windpark_bh bio_ek water_stA bio_kw wind_brühl other :=
+Bonn 49 11 49 22 14 23 200
+Troisdorf 60 21 60 10 9 33 195
+Siegburg 61 30 61 5 7 35 199
+Bornheim 20 2 20 30 19 6 205
+Niederkassel 40 22 40 44 23 5 202;
+
+param power_need := Bonn 2308341 Troisdorf 551218 Bornheim 357079 Siegburg 286935 Niederkassel 269411;
+param power_supply:= windpark_ek 7000 windpark_bh 8500 bio_ek 9 water_stA 77 bio_kw 39 wind_brühl 10000 other 3747359;
