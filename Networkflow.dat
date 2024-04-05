@@ -1,0 +1,28 @@
+set way_points := A B C D E F G H I J K P L M N O T;
+set crossroads := B C D E F G H I J K P L M N O;
+set grid := T;
+set path_ways := (A,B) (B,C) (C,D) (C,E) (E,F) (D,F) (F,G) (G,T) (F,I) (I,J) (J,T) (F,H) (H,T) (C,M) (A,K) (K,P) (P,L) (L,M) (M,N) (N,O) (O,T);
+
+param: cost :=
+A B 1740
+B C 900
+C D 3000
+C E 2460
+E F 3000
+D F 2460
+F G 915
+G T 3810
+F I 1800
+I J 600
+J T 2760
+F H 960
+H T 3090
+C M 7350
+A K 3060
+K P 450
+P L 1080
+L M 3900
+M N 4800
+N O 750
+O T 1900;
+
